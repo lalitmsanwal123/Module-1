@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title>Angular JS- Module 1 assignment</title>
+</head>
+<body ng-app="TooMuchApp">
+    <div ng-controller="TooMuchController">
+        <h1>Assignment 1 :</h1>
+        <div>
+            List Comma seperated eatable items
+            <input type="text" ng-model="ItemsValue" /><br />
+            <i>Note each comma matters here..
+              <br />
+            <input type="button" ng-click="CheckTooMuch()" value="Check If Too Much" />
+            {{Message}}
+        </div>
+    </div>
+</body>
+</html>
